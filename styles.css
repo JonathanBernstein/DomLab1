@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    font-family: 'Maven Pro', sans-serif;
+    background: 
+    linear-gradient(
+      rgba(15, 15, 15, 0.45), 
+      rgba(15, 15, 15, 0.45)
+    ),
+    url(background.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    
+}
+
+h1{
+    color: white;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 5px;
+    width: 40vw;
+    height: 50vh;
+    background-color:rgb(179,178,176, 0.6);
+    align-content: center;
+    
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+button{
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    height: 35px;
+}
+
+.addressList{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+
+    
+}
+
+.contact_box{
+    position: relative;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 5px;
+    height: 140px;
+    width: 200px;
+    margin-right: 40px;
+    margin-top: 15px;
+    align-items: center;
+    line-height: 0.4;
+
+}
+
+
+
+#trash{
+    position: absolute;
+    background-color: white;
+    left: 190px;
+    top: 125px;
+    height: 30px;
+    width: 30px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
